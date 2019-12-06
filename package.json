@@ -1,0 +1,29 @@
+{
+    "name": "donamer.me",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:css": "postcss src/tailwind.css -o static/dist/tailwind.css",
+        "watch": "watch 'npm run build:css' ./"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DrewDouglass/donamer.me.git"
+    },
+    "author": "Drew Douglass",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DrewDouglass/donamer.me/issues"
+    },
+    "homepage": "https://github.com/DrewDouglass/donamer.me#readme",
+    "dependencies": {
+        "tailwindcss": "^1.1.4"
+    },
+    "devDependencies": {
+        "autoprefixer": "^9.7.3",
+        "postcss": "^7.0.23",
+        "watch": "^1.0.2"
+    }
+}
